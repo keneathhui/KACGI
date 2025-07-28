@@ -22,6 +22,19 @@ python train.py
 
 All configuration parameters (e.g., dataset name, missing rate) can be directly modified in the Python source code.
 
+## 📊 Dataset Sources
+
+Below are the links to all datasets used in this project:
+
+- [Concrete](https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength)  
+- [Wine](https://archive.ics.uci.edu/dataset/186/wine+quality)  
+- [Bias](https://archive.ics.uci.edu/dataset/514/bias+correction+of+numerical+prediction+model+temperature+forecast)  
+- [CropMapping](https://archive.ics.uci.edu/dataset/525/crop+mapping+using+fused+optical+radar+data+set)  
+- [MNIST](https://yann.lecun.com/exdb/mnist/)  
+- [Credit](https://archive.ics.uci.edu/dataset/27/credit+approval)  
+- [Obesity](https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition)  
+- [Adult](https://archive.ics.uci.edu/dataset/2/adult)
+
 ## 📄 Citation
 
 If you find this code useful, please consider citing our paper:
