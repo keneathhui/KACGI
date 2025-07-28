@@ -1,8 +1,36 @@
-# Gaussian Mixture Variational Autoencoders
-This project aims at unsupervised clustering through generative models. Thus a variational autoencoder is trained to cluster data in its encoder. Instead of an isotropic gaussian prior, the input is considered to be composed of a mixture of K gaussians, K being the number of clusters the data may posses.
+# KACGI
 
-This project is based on the paper:</br>
-Nat Dilokthanakul, Pedro A.M. Mediano, Marta Garnelo, Matthew C.H. Lee, Hugh Salimbeni, Kai Arulkumaran, Murray Shanahan. <b>Deep Unsupervised Clustering with Gaussian Mixture Variational Autoencoders.</b>
-</br>Link: https://arxiv.org/abs/1611.02648
+**Official Implementation for the Paper:**  
+**KACGI: Addressing Scarcity, Heterogeneity, and Uncertainty in Tabular Data Imputation**
 
-This network on MNIST dataset achieves approximately 75% classification accuracy on test set after learning the clusters in training data.
+## 📦 Installation
+
+To set up the environment, simply run:
+
+```bash
+conda env create -f environment.yml
+conda activate KACGI
+```
+
+## 🚀 Getting Started
+
+You can run the following basic command to perform data imputation on the Adult dataset using KACGI:
+
+```bash
+python train.py
+```
+
+All configuration parameters (e.g., dataset name, missing rate) can be directly modified in the Python source code.
+
+## 📄 Citation
+
+If you find this code useful, please consider citing our paper:
+
+```bibtex
+@article{your_kacgi_citation,
+  title     = {KACGI: Addressing Scarcity, Heterogeneity, and Uncertainty in Tabular Data Imputation},
+  author    = {},
+  journal   = {},
+  year      = {2025}
+}
+```
